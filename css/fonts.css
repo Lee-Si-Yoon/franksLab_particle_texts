@@ -1,0 +1,13 @@
+@font-face{ 
+  font-family:'NanumGothicCoding'; 
+  src:url('https://lee-si-yoon.github.io/goodgun/fonts/NanumGothicCoding.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{ 
+  font-family:'NanumGothicCoding'; 
+  src:url('https://lee-si-yoon.github.io/goodgun/fonts/NanumGothicCoding-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}

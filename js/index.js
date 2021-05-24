@@ -26,10 +26,12 @@ window.addEventListener("mousemove", function(event){
     //console.log(mouse.x,mouse.y);
 })
 
+let textString = "nihily_ville",
+    textWidth = ctx.measureText(textString).width;
+
 ctx.fillStyle = 'white';
-ctx.font = '30px Verdana';
-ctx.fillText('lipsum', 0, 40);
-ctx.fillText('립숨', 0, 80);
+ctx.font = '1.5rem NanumGothicCoding';
+ctx.fillText(textString, 0, 30);
 
 //ctx.strokeStyle = 'white';
 //ctx.strokeRect(0,0,100,100);
