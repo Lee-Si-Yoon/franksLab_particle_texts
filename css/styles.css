@@ -13,28 +13,27 @@ canvas {
 
 .wrap{
     position: absolute;
-    margin-top: 20rem;
-    height: 500px;
+    margin-top: 25rem;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
+.wrap a{
+    max-width: 500px;
+    text-decoration: none;
+    margin: 0 80px;
+}
 a:hover{
     opacity: 0.2;
     text-decoration: none;
 }
 .wrap img{
-    width: 40%;
+    width: 80%;
 }
-.snu{
-    width: 70%;
-    position: relative;
-}
+
 .wrap h1{
-    text-decoration: none;
     color: white;
     font-weight: bold;
-    font-size: 2rem;
+    font-size: 3rem;
 }
